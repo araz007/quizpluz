@@ -17,7 +17,20 @@ var _dOa_20,_sPa13Mcx,_ask3k2L;
 
 if (document.getElementById('quizpluz')) {
 
-document.getElementById('quizpluz').innerHTML = "" + "<div style='position: relative;'>" + "<div id='loadingResult' class='none r_ca1L loadingResult'></div>" + "</div>" + "<button id='startquiz' class='quiz_button bg-default'>&larr;&nbsp;&nbsp;&nbsp;بدء الاختبار</button>" + "<div id='allItems' class='none'>" + "<div class='outerconfetti' id='outerconfetti' style='display: none'>" + "<div class='confetti'><p></p></div>" + "</div>" + "<div class='quiz-content'><br/> " + "<div class='start-end bg-default r_ca1L' id='start_end'>" + "<div id='fno'> " + "<span id='current_q' class='r_ca1L'></span> " + "<span id='total_q' class='r_ca1L'></span> " + "</div>" + "<div id='progress' class='r_ca1L'></div>" + "</div>" + "<br>" + "<div id='container'>" + "<p id='ques'></p>" + "<div id='question_img' class='quiz_auto quiz_center' style='display: none;'></div>" + "<div id='btns'> " + "<button class='bttn quiz_button' id='btn1' onclick='turnOver(this.textContent,this.id)'></button> " + "<button class='bttn quiz_button' id='btn2' onclick='turnOver(this.textContent,this.id)'></button> " + "<button class='bttn quiz_button' id='btn3' onclick='turnOver(this.textContent,this.id)'></button>" + "<button class='bttn quiz_button' id='btn4' onclick='turnOver(this.textContent,this.id)'></button> " + "</div>" + "</div>" + "<div id='ansAllQues' class='none'></div><br/> " + "<div id='shareQuiz'></div>" + "<div class='quizSettings'>" + "<div class='setting_quiz' id='openFull' onclick='openFullscreen();'><i class='fas fa-expand'></i> تكبير الشاشة</div>" + "<div class='setting_quiz' id='closeFull' onclick='closeFullscreen();'> <i class='fas fa-compress'></i> تصغير الشاشة</div>" + "<div class='setting_quiz' id='reload' onclick='reloadTest()'><i class='fas fa-sync-alt'></i> إعادة الاختبار</div>" + "</div>" + "<div id='answers' class='none'></div>" + "</div>" + "</div>";
+document.getElementById('quizpluz').innerHTML = "" + "<div style='position: relative;'>" + "<div id='loadingResult' class='none r_ca1L loadingResult'></div>" + "</div>" + 
+	"<button id='startquiz' class='quiz_button bg-default'>&larr;&nbsp;&nbsp;&nbsp;بدء الاختبار</button>" + "<div id='allItems' class='none'>" +
+	"<div class='outerconfetti' id='outerconfetti' style='display: none'>" + "<div class='confetti'><p></p></div>" + "</div>" + "<div class='quiz-content'><br/> " +
+	"<div class='start-end bg-default r_ca1L' id='start_end'>" + "<div id='fno'> " + "<span id='current_q' class='r_ca1L'></span> " + 
+	"<span id='total_q' class='r_ca1L'></span> " + "</div>" + "<div id='progress' class='r_ca1L'></div>" + "</div>" + "<br>" + "<div id='container'>" + 
+	"<p id='ques'></p>" + "<div id='question_img' class='quiz_auto quiz_center' style='display: none;'></div>" + "<div id='btns'> " + 
+	"<button class='bttn quiz_button' id='btn1' onclick='turnOver(this.textContent,this.id)'></button> " + 
+	"<button class='bttn quiz_button' id='btn2' onclick='turnOver(this.textContent,this.id)'></button> " + 
+	"<button class='bttn quiz_button' id='btn3' onclick='turnOver(this.textContent,this.id)'></button>" + 
+	"<button class='bttn quiz_button' id='btn4' onclick='turnOver(this.textContent,this.id)'></button> " + 
+	"</div>" + "</div>" + "<div id='ansAllQues' class='none'></div><br/> " + "<div id='shareQuiz'></div>" + "<div class='quizSettings'>" + 
+	"<div class='setting_quiz' id='openFull' onclick='openFullscreen();'> تكبير الشاشة</div>" + 
+	"<div class='setting_quiz' id='closeFull' onclick='closeFullscreen();'> <i class='fas fa-compress'></i> تصغير الشاشة</div>" + 
+	"<div class='setting_quiz' id='reload' onclick='reloadTest()'> إعادة الاختبار</div>" + "</div>" + "<div id='answers' class='none'></div>" + "</div>" + "</div>";
 
 window.top == window && window.console && (setTimeout(console.log.bind(console, "%c%s", "color: red; background: yellow; font-size: 20px;", "Alert")),
   setTimeout(console.log.bind(console, "%c%s", "font-size: 16px;", "This website uses quizpluz.com extension")));
