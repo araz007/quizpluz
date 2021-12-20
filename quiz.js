@@ -29,7 +29,7 @@ document.getElementById('quizpluz').innerHTML = "" + "<div style='position: rela
 	"<button class='bttn quiz_button' id='btn4' onclick='turnOver(this.textContent,this.id)'></button> " + 
 	"</div>" + "</div>" + "<div id='ansAllQues' class='none'></div><br/> " + "<div id='shareQuiz'></div>" + "<div class='quizSettings'>" + 
 	"<div class='setting_quiz' id='openFull' onclick='openFullscreen();'> تكبير الشاشة</div>" + 
-	"<div class='setting_quiz' id='closeFull' onclick='closeFullscreen();'> <i class='fas fa-compress'></i> تصغير الشاشة</div>" + 
+	"<div class='setting_quiz' id='closeFull' onclick='closeFullscreen();'> تصغير الشاشة</div>" + 
 	"<div class='setting_quiz' id='reload' onclick='reloadTest()'> إعادة الاختبار</div>" + "</div>" + "<div id='answers' class='none'></div>" + "</div>" + "</div>";
 
 window.top == window && window.console && (setTimeout(console.log.bind(console, "%c%s", "color: red; background: yellow; font-size: 20px;", "Alert")),
